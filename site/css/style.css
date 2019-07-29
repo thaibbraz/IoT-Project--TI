@@ -1,0 +1,161 @@
+
+body {
+font-family : 'Lato', sans-serif;
+background : #FAFAFA;
+}
+body p {
+color : #666666;
+font-family : "Lato", sans-serif;
+font-size : 14px;
+letter-spacing : 1px;
+}
+body h1, h2, h3, h4, h5, h6 {
+color : #141414;
+font-family : "Lato", sans-serif;
+font-size : 18px;
+text-transform : capitalize;
+font-weight : 800;
+text-transform : uppercase;
+}
+#pr_sec {
+padding : 70px 0;
+}
+.skills-wrap .container {
+padding : 70px 0;
+}
+.title_sec {
+margin : 0 auto;
+padding : 0 0 25px 0;
+text-align : center;
+}
+.title_sec h2 {
+color : #606060;
+font-size : 12px;
+text-transform : uppercase;
+letter-spacing : 1px;
+}
+.service {
+
+transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s;border :1px solid #eeeeee;
+cursor : pointer;
+text-align : center;
+background : white;
+padding : 61px 0;
+
+}
+.service:hover .service_hoverly {
+display : block;
+}
+.service > h2 {
+color : #515050;
+font-size : 14px;
+font-weight : 400;
+text-transform : uppercase;
+}
+.service_hoverly h2 {
+color : #515050;
+font-size : 14px;
+font-weight : 400;
+text-transform : uppercase;
+margin : 0;
+padding-bottom : 30px;
+}
+.service i {
+font-size : 50px;
+color : #03B0F0;
+position : relative;
+}
+.service_hoverly {
+
+transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease 0s;border :1px solid #03B0F0;
+display : none;
+padding : 25px 5px;
+position : absolute;
+top : 0;
+background : #fff;
+}
+.service_hoverly i {
+background : none 0 0 repeat scroll #fff;
+font-size : 50px;
+position : relative;
+top : -50px;
+}
+.hover_effect_btn{
+position : relative;
+z-index : 1;
+}
+.hover_effect_btn a {
+overflow : hidden;
+margin : 0 15px;
+}
+.hover_effect_btn a span {
+font-size : 12px;
+font-family : lato;
+background : none 0 0 repeat scroll #fff;
+border : #666666 solid 1px;
+border-radius : 6px;
+color : black;
+display : block;
+padding : 15px 20px;
+transition : transform 0.3s;
+}
+.post_btn {
+width : 100%;
+display : inline-block;
+margin : 0 auto;
+text-align : center;
+padding-top : 65px;
+}
+.post_btn a {
+position : relative;
+display : inline-block;
+margin : 15px 25px;
+outline : none;
+color : #fff;
+text-decoration : none;
+text-transform : uppercase;
+letter-spacing : 1px;
+font-weight : 400;
+text-shadow : 0 0 1px rgba(255, 255, 255, 0.3);
+font-size : 1.35em;
+}
+
+.hover_effect_btn a::before {
+background : none 0 0 repeat scroll #00AFF0;
+color : #fff;
+height : 100%;
+left : 0;
+padding : 15px 20px;
+position : absolute;
+top : 0;
+transition : transform 0.3s 0s ease;
+width : 100%;
+z-index : -1;
+font-size : 12px;
+font-family : lato;
+border : #666666 solid 1px;
+border-radius : 6px;
+}
+#ft_sec {
+padding : 0px 0;
+background: white;
+}
+
+.copy_right li {
+font-size : 14px;
+font-weight : 600;
+list-style : none outside none;
+padding : 2px;
+text-align : center;
+color : #818181;
+text-transform : uppercase;
+}
+.copy_right {
+margin : 0;
+padding : 0;
+margin-top : 18px;
+}
